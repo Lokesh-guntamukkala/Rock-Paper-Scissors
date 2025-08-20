@@ -1,0 +1,104 @@
+*
+{
+font-family: arial;
+}
+
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center; 
+align-items: center;   
+background-color: rgb(28, 27, 27); 
+color: white;
+font-family: Arial, sans-serif;
+}
+
+div {
+text-align: center;
+padding: 20px;
+border-radius: 12px;
+background: rgb(28, 27, 27);
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+border: whitesmoke 2px solid;
+}
+
+.title  {
+font-size: 34px;
+font-weight: bold;
+}
+
+.emoji-button   
+{
+color: white;
+background-color: black; 
+border-color: white;
+border: solid;
+border-width: 3px;
+border-radius: 75px;
+width: 120px;
+height: 120px;
+margin-right: 10px;
+cursor: pointer;
+font-size: 20px; 
+}
+
+button:active
+{
+opacity: 0.5;
+}
+
+.icon   {
+height: 50px;
+background-color: black;
+}
+
+.result   {
+font-size: 25px;
+font-weight: bold;
+}
+
+.reset-score-button   {
+color: white;
+background-color: red;
+border: none;
+font-size: 18px;
+padding: 7px 15px;
+cursor: pointer;
+border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 22px;
+    }
+
+    .emoji-button {
+        width: 80px;
+        height: 80px;
+        border-width: 2px;
+        margin: 5px;
+    }
+
+    .icon {
+        height: 35px;
+    }
+
+    .result {
+        font-size: 20px;
+    }
+
+    .js-score {
+        font-size: 16px;
+    }
+
+    .reset-score-button {
+        font-size: 16px;
+        padding: 5px 12px;
+    }
+
+    div {
+        min-width: 90%;
+        padding: 15px;
+    }
+  }
